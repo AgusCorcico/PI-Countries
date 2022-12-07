@@ -1,0 +1,31 @@
+.about{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    padding: 15px;
+    background-color: black;
+    color: aliceblue;
+    text-decoration-color: #dce9f5;
+    justify-content: center;
+    border-radius: 6px;
+    text-align: center;
+}
+.aboutCont{
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 19px;
+}
+.list{
+    margin: 0 auto;
+}
+
+.btn{
+    margin-left: 35%;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,99 @@
+.home{
+    background-image: url('https://images4.alphacoders.com/468/46854.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+
+.homeContainer{
+    background-size: cover;
+    display: grid;
+    width: 100%;
+    height:100%;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 90px;
+}
+
+.btnNavBar{
+    color: white;
+    background-color: black;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+}
+
+.btnNavBar:hover{
+    box-shadow: 5px 5px 0 0 white;
+}
+
+
+.title{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 5px;
+}
+
+.liNav{
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-start;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.marginLi{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.searchBar{
+    margin-left: 300px;
+}
+
+.selectContainer{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    float: left;
+}
+
+.selectBtn{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.selectBtn:hover{
+    box-shadow: 5px 5px 0 0 black;
+}
+
+
+.homeCardContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items:center;
+}
+

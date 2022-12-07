@@ -1,0 +1,66 @@
+
+
+.detailContainer{
+    background-image: url('https://images.pexels.com/photos/6841857/pexels-photo-6841857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    margin-bottom: -20px;
+    color: white;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerActivities{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.detailActivity{
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 10%;
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btnGoBack{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnGoBack:hover{
+    background-color: black;
+    color: white;
+}
+

@@ -1,0 +1,35 @@
+.containerPag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ulPag{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.number{
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    font-weight:bold;
+}
+
+.number:hover{
+    box-shadow: 5px 5px 0 0 white;
+}
+
+
+
+.ilPag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
